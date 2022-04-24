@@ -175,7 +175,7 @@ body {
 }
 
 body.dark {
-    background: #191b1d;
+    background: rgb(19, 19, 19);
     color: #fff
 }
 
@@ -843,7 +843,7 @@ span.apl-background {
     position: fixed;
     top: 0;
     left: 0;
-    background: #191b1d;
+    background: rgb(19, 19, 19);
     width: 100%;
     height: 100%;
     z-index: -15;
@@ -1703,7 +1703,7 @@ body.loading span.toggle-line {
 }
 
 .site-header.menu_dark.fullscreen_menu::before {
-    background: #191b1d
+    background: rgb(19, 19, 19)
 }
 
 .site-header.menu_dark .site-navigation.fullscreen .menu.main-menu > li.menu-item a {
@@ -6014,6 +6014,7 @@ body.dark .a-plus-button a,
 -------------------------------------------------------------------**/
 
 .fullscreen-wall-showcase {
+    background: rgb(19, 19, 19);
     position: fixed;
     width: 100%;
     height: 100%;
@@ -8114,7 +8115,7 @@ body.dark .aph-sub-text,
 .alioth-personal-header.dark .aph-sub-text,
 .alioth-personal-header.dark .aph-welc,
 body.dark .aph-welc {
-    color: hsla(0, 0%, 100%, .4)
+    color: #fff;
 }
 
 
@@ -8132,8 +8133,8 @@ body.dark .aph-welc {
 
 .circular-button.dark,
 body.dark .circular-button {
-    color: #fff;
-    background: #101010
+    color: #101010;
+    background: #fff;
 }
 
 .circular-button span {

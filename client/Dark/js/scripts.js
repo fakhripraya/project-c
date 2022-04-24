@@ -3455,9 +3455,9 @@
 
 
                 let numVal = $this.text(),
-                    num1 = "<span class='num_val_anim'>" + (numVal - 3) + "</span>",
-                    num2 = "<span class='num_val_anim'>" + (numVal - 2) + "</span>",
-                    num3 = "<span class='num_val_anim'>" + (numVal - 1) + "</span>";
+                    num1 = "<span style='color: #d71414;' class='num_val_anim'>" + (numVal - 3) + "</span>",
+                    num2 = "<span style='color: #d71414;' class='num_val_anim'>" + (numVal - 2) + "</span>",
+                    num3 = "<span style='color: #d71414;' class='num_val_anim'>" + (numVal - 1) + "</span>";
 
                 $this.prepend(num1, num2, num3);
 
