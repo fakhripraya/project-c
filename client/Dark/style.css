@@ -6142,14 +6142,18 @@ body.dark .fw-project a,
     font-weight: 700;
     letter-spacing: -0.05em;
     color: rgba(25, 27, 29, .6);
-    overflow: hidden
+    overflow: hidden;
+}
+
+.fw-cat span {
+    background-color: rgba(25, 27, 29,0.2);
 }
 
 body.dark .fw-cat,
 .fullscreen-wall-showcase.dark .fw-cat,
 body.dark .fw-project::after,
 .fullscreen-wall-showcase.dark .fw-project::after {
-    color: hsla(0, 0%, 100%, .6)
+    color: hsla(0, 0%, 100%, .9)
 }
 
 
