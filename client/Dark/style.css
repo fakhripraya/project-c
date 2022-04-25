@@ -847,7 +847,7 @@ span.apl-background {
     width: 100%;
     height: 100%;
     z-index: -15;
-    background-image: url(img/site-logo-light.png);
+    background-image: url(img/favicon/favicon-08.png);
     filter: grayscale(100%);
     background-position: center;
     background-repeat: no-repeat;
@@ -10310,6 +10310,11 @@ body.dark .ac-title {
     .apl-count {
         font-size: 200px;
     }
+}
+
+.footer-logo-img{
+    height: 80px !important;
+    width: 80px !important;
 }
 
 }
