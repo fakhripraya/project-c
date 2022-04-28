@@ -10303,18 +10303,37 @@ body.dark .ac-title {
         height: 5px;
     }
 
+/* ------- ### Custom Styles ------- **/
+
+    .footer-logo-img{
+        height: 80px !important;
+        width: 80px !important;
+    }
+
+    @media only screen and (max-width: 520px) {
+        .apl-count {
+            font-size: 200px;
+        }
+    }
 
 /* ------- ### Custom Styles ------- **/
 
+}
+
+/* ------- ### Custom Styles ------- **/
+
+.personal-image-hero{
+    transform: scale(0.5) translateY(50%) !important;
+}
+
 @media only screen and (max-width: 520px) {
-    .apl-count {
-        font-size: 200px;
+    .personal-image-hero{
+        transform: scale(1) translateY(0%) !important;
     }
 }
 
-.footer-logo-img{
-    height: 80px !important;
-    width: 80px !important;
-}
-
+@media only screen and (max-width: 520px) and (max-height: 550px){
+    .personal-image-hero{
+        transform: scale(0.75) translateY(25%) !important;
+    }
 }
