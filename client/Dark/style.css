@@ -10328,7 +10328,7 @@ body.dark .ac-title {
 
 @media only screen and (max-width: 520px) {
     .personal-image-hero{
-        transform: scale(1) translateY(0%) !important;
+        transform: scale(0.75) translateY(25%) !important;
     }
 }
 
