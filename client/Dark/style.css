@@ -709,6 +709,20 @@ h1.big-title {
     padding-right: 10px;
 }
 
+h1.about-us-title {
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100px;
+    margin-left: -7px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    padding-right: 10px;
+}
+
+h1.about-us-sub-title {
+    margin-top: -65px;
+}
 
 h1 {
     font-size: 48px;
@@ -9212,6 +9226,21 @@ body.dark .ac-title {
         margin-bottom: 10px;
         padding-right: 0;
         margin-left: 0;
+    }
+
+    h1.about-us-title {
+        font-size: 50px;
+        line-height: 65px;
+        margin-bottom: 0;
+        margin-bottom: 30px;
+        padding-right: 0;
+        margin-left: 0;
+    }
+
+    h1.about-us-sub-title {
+        font-size: 37px;
+        line-height: 50px;
+        margin-bottom: 0;
     }
 
     .heading-bg-text {
